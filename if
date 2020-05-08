@@ -1,0 +1,5 @@
+#!/bin/bash
+import os, threading
+
+if (cpu_count-five_load)<1:
+   exit()
