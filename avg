@@ -1,0 +1,12 @@
+#!/bin/bash
+import os, threading
+
+load_avg = os.getloadavg() 
+print("Load averages are :", load_avg) 
+
+cpu_count = os.cpu_count()
+print("the number of cpu is : ",cpu_count)
+
+
+one_load,five_load,fifteen_load = os.getloadavg() 
+print("five minutes load average is :", five_load) 
